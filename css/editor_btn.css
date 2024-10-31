@@ -1,0 +1,150 @@
+i.platform_ly_link_button{
+    background-image: url('../img/platform-editor-logo.png');
+}
+.mce-ply_body_modal_link{
+    overflow: auto !important;
+    overflow-x: hidden !important;
+    white-space: pre-wrap !important;
+}
+.mce-ply_body_modal_link *{
+    white-space: pre-wrap !important;
+}
+#links_table_toggle, #links_details_table{
+    width: 98% !important;
+    border-collapse: separate !important;
+    border-spacing: 0 11px !important;
+}
+#links_table_toggle th, #links_details_table th, #links_table_toggle td, #links_details_table td{
+    padding: 5px 10px;
+    text-align: left;
+}
+
+#links_table_toggle tbody > tr:hover, #links_details_table tbody > tr:hover{
+    background-color: #f3f5f7;
+}
+/*
+#links_table_toggle td, #links_details_table td{
+    border-bottom: 1px solid;
+    border-top:  1px solid;
+}
+#links_table_toggle td:first-child, #links_details_table td:first-child{
+    border-left: 1px solid;
+}
+#links_table_toggle td:last-child , #links_details_table td:last-child{
+    border-right: 1px solid;
+}*/
+.mce-ply_btn_add_link button{
+    padding: 0 15px !important;
+}
+.mce-ply_btn_cancel_link button{
+    padding: 0 15px !important;
+}
+.platform_ly_link_button_new{
+    padding: 5px;
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    margin: 0;
+}
+.platform_ly_link_button_new i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+.platform_ly_link_button_new:hover{
+    color: #555d66;
+    box-shadow: inset 0 0 0 1px #555d66,inset 0 0 0 2px #fff;
+}
+#ply-block-btns{
+    text-align: center;
+    margin-bottom: 15px;
+}
+#ply-block-btns .ply-btn-etitor-block{
+    display: inline-block;
+    width: 40%;
+    border: 1px solid #dfdfdf;
+    padding: 10px 0;
+    cursor: pointer;
+    margin: 0 5px;
+}
+#ply-block-btns .ply-btn-etitor-block:hover{
+    border-color: #b0b0b0;
+}
+.ply-editor-list-event-options{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ply-editor-dropdown-menu{
+    position: absolute;
+    top: 100%;
+    left: -55px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.ply-editor-list-event-options .ply-link-more{
+    cursor: pointer;
+}
+.ply-editor-list-event-options .ply-link-more:hover{
+    color: #333;
+    text-decoration: none;
+}
+.ply-editor-list-event-options.open .ply-editor-dropdown-menu{
+    display: block;
+}
+#ply-default-event-msg{
+    text-align: center;
+    padding: 15px;
+}
+#ply-dialog-footer{
+    display: none;
+    padding: 0 16px 16px 16px;
+    border-top: 1px solid #dfdfdf;
+    position: absolute;
+    bottom: 57px;
+    background: #ffffff;
+}
+#ply-dialog-event-close-footer{
+    text-align: right;
+}
+#ply-dialog-event-close-footer span{
+    display: inline-block;
+    width: 20px;
+    height: 22px;
+    transform:rotate(90deg);
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: -13px;
+}
+
+#ply-dialog-link-settings {
+    display: none;
+    padding: 5px 10px 10px 10px;
+    font-weight: bold;
+    border-top: 1px solid #dfdfdf;
+    position: relative;
+}
+#ply-dialog-link-settings table {
+    margin: 0px auto;
+}
+#ply-link-text-error,
+#ply-link-url-error {
+    display: none;
+    font-weight: 300;
+}
